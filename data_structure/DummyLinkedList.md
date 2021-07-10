@@ -4,7 +4,7 @@
 
 - 다음은 연결 리스트를 표현한 구조체의 정의이다.
 
-```
+```c
 typedef struct _linkedList
 {
     Node* head;
