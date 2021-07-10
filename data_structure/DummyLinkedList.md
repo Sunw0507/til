@@ -16,4 +16,4 @@ typedef struct _linkedList
 
 ```
 
-<img src="https://blog.kakaocdn.net/dn/CWOxy/btqvNHkaWPy/VzaxxouPMMHGRHKuk2472k/img.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="https://blog.kakaocdn.net/dn/CWOxy/btqvNHkaWPy/VzaxxouPMMHGRHKuk2472k/img.png" width="250px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
