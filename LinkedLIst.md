@@ -6,7 +6,7 @@ typedef int LData;
 
 typedef struct _node
 {
-  >LData data;
+  LData data;
   struct _node* next;
 } Node;
 ```   
