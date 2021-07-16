@@ -49,9 +49,24 @@ int main(void)
   //···
 }
 ```
-#### 3. 노드 끼워넣기를 통한 정렬 예시
+#### 3. 노드 끼워넣기를 통한 정렬
 ```c
 void SInsert(List* plist, LData data)
+{
+  Node* newNode = (Node*_malloc(sizeof(Node));
+  Node* pred = plist->head;
+  newNode->data = data;
+  
+  while(pred->next != NULL && plist->comp(data, pred->next->data) != 0) //data가 pred->next->data보다 작지 않을 경우 실행(반복)
+  {
+    pred = pred->next; //다음 노드로 이동
+  }
+  
+  newNode->next = pred->next;
+  pred->next = newNode;
+  
+  (plist->numOfData)++;
+}
 ```
 
 ***
