@@ -1,7 +1,7 @@
-#연결 리스트 구현
+# 연결 리스트 구현
 ***
-##+구조체   
-1. 노드   
+## +구조체   
+#### 1. 노드   
 '''c
 typedef int LData;
 
@@ -11,7 +11,7 @@ typedef struct _node
   struct _node* next;
 } Node;
 '''   
-2. 연결리스트 - 헤드 기반   
+#### 2. 연결리스트 - 헤드 기반   
 '''c
 typedef struct _linkedList
 {
@@ -24,17 +24,16 @@ typedef struct _linkedList
 
 typedef LinkedList Link;
 '''
-
 ***
 ###-정렬 구현   
-1. 새로운 입력된 데이터의 노드 연결   
+#### 1. 새로운 입력된 데이터의 노드 연결   
 '''c
 void SetSoortRule(List* plist, int (*comp)(LData data1, LData data2))
 {
   plist->comp = comp;
 }
-'''   
-2. 정렬 함수 정의 및 지정   
+'''  
+#### 2. 정렬 함수 정의 및 지정   
 '''c
 int WhoIsPrecede(int d1, int d2)
 {
