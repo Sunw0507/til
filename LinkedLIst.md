@@ -1,6 +1,6 @@
 # 연결 리스트 구현
 ***
-## +구조체   
+## ·구조체   
 #### 1. 노드   
 ```c
 typedef int LData;
@@ -25,7 +25,7 @@ typedef struct _linkedList
 typedef LinkedList Link;
 ```
 ***
-###-정렬 구현   
+### -정렬 구현   
 #### 1. 새로운 입력된 데이터의 노드 연결   
 ```c
 void SetSoortRule(List* plist, int (*comp)(LData data1, LData data2))
