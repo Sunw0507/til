@@ -68,7 +68,7 @@ void SInsert(List* plist, LData data)
   (plist->numOfData)++;
 }
 ```
-<img src="https://blog.kakaocdn.net/dn/VYQ1Z/btqvP6cD5DZ/vGTe2nBVTkI9pKpyZbQkV0/img.png" width="40%" height="40%" title="SInsert 함수의 노드 추가 완료" alt="LinkedList 04-33"></img>
+<img src="https://blog.kakaocdn.net/dn/VYQ1Z/btqvP6cD5DZ/vGTe2nBVTkI9pKpyZbQkV0/img.png" width="80%" height="80%" title="SInsert 함수의 노드 추가 완료" alt="LinkedList 04-33"></img>
 
 
 ***
