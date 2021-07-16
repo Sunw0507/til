@@ -18,7 +18,7 @@ typedef struct _linkedList
   Node* cur;
   Node* before;
   int numOfData;
-  int (*comp)(data1, data2);
+  int (*comp)(LData, LData);
 } LinkedList;
 
 typedef LinkedList Link;
@@ -27,7 +27,7 @@ typedef LinkedList Link;
 ### -정렬 구현   
 #### 1. 새로운 입력된 데이터의 노드 연결   
 ```c
-void SetSoortRule(List* plist, int (*comp)(LData data1, LData data2))
+void SetSoortRule(List* plist, int (*comp)(LData, LData))
 {
   plist->comp = comp;
 }
@@ -49,5 +49,10 @@ int main(void)
   //···
 }
 ```
+#### 3. 노드 끼워넣기를 통한 정렬 예시
+```c
+void SInsert(List* plist, LData data)
+```
 
+***
 참조 : [오렌지미디어](https://www.orentec.co.kr/)
