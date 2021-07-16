@@ -69,7 +69,5 @@ void SInsert(List* plist, LData data)
 }
 ```
 <img src="https://blog.kakaocdn.net/dn/VYQ1Z/btqvP6cD5DZ/vGTe2nBVTkI9pKpyZbQkV0/img.png" width="68%" height="68%" title="SInsert 함수의 노드 추가 완료" alt="LinkedList 04-33"></img>
-
-
 ***
 참조 : [오렌지미디어](https://www.orentec.co.kr/)
