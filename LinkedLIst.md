@@ -10,7 +10,7 @@ typedef struct _node
   struct _node* next;
 } Node;
 ```   
-#### 2. 연결리스트 - 헤드 기반   
+#### 2. 연결 리스트 - 헤드 기반   
 ```c
 typedef struct _linkedList
 {
